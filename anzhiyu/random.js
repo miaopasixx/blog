@@ -1,0 +1,1 @@
+var posts=["m/36dd8626/","m/2518721c/","m/29cbe460/","m/e9cd2bbc/","m/13a60432/","m/b6557c71/","m/33052050/","m/248914b0/","m/db2d6be4/","m/39deb4c6/","m/9c9d88aa/","m/5a717bf0/","m/9daba997/","m/68132ee7/","m/e22056dd/","m/61622d0e/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
